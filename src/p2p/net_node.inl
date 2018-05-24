@@ -397,9 +397,9 @@ namespace nodetool
     if (testnet)
     {
       memcpy(&m_network_id, &::config::testnet::NETWORK_ID, 16);
-      full_addrs.insert("176.9.150.40:48188");
-      full_addrs.insert("173.249.49.242:48188");
-      full_addrs.insert("148.251.133.73:48188");
+      full_addrs.insert("45.76.50.103:19001");
+      full_addrs.insert("45.32.42.83:19001");
+   
     }
     else
     {
