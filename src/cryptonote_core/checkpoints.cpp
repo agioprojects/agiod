@@ -207,7 +207,8 @@ namespace cryptonote
     static const std::vector<std::string> dns_urls =
     {
       "ck1.forumreksadana.com",
-      "ck2.forumreksadana.com"
+      "ck2.forumreksadana.com",
+      "ck3.forumreksadana.com"
      
     };
 
