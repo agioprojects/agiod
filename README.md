@@ -31,7 +31,7 @@ f(x) = 0.06 * (1 - sqrt(x)) where x = current_supply / max_supply S.T. current_s
 - **Total supply**: **90,000,000** coins in first 10 years which is followed by a tail emission each year for inflation.
 - **Coin symbol**: **AGIO**
 - **Coin Units**:
-  + 1 Nano-Agio &nbsp;= 0.0000001 **XRN** (10<sup>-7</sup> - _the smallest coin unit_)
+  + 1 Nano-Agio &nbsp;= 0.0000001 **AGIO** (10<sup>-7</sup> - _the smallest coin unit_)
   + 1 Micro-Agio = 0.0001 **AGIO** (10<sup>-4</sup>)
   + 1 Milli-Agio = 0.1 **AGIO** (10<sup>-1</sup>)
 - **Hash algorithm**: CryptoNight (Proof-Of-Work)
