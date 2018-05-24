@@ -2732,7 +2732,7 @@ bool simple_wallet::donate(const std::vector<std::string> &args_)
      return true;
   }
   std::string mixin_str;
-  std::string address_str = "P2PPqTqecgqKjciKFfMAq41SkXbbPtH4iVfpvACGErsB7EcTWKJMXD9PxMHtbZ5jG76SB1yrR28jPa2Xdc5Ym9vG6jqBeAe6AR";
+  std::string address_str = "Xagio8EQBFUDuP8gNRFoVbH5FTcxZT7UC6dPVUZK7JucB9W7sC66A4QJp2qCP6FcJQVVHZ6KZHuRrBCnpVtx2hANBcF8pG998U7";
   std::string amount_str;
   std::string payment_id_str;
   // check payment id
