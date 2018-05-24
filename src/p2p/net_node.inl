@@ -399,7 +399,7 @@ namespace nodetool
       memcpy(&m_network_id, &::config::testnet::NETWORK_ID, 16);
       full_addrs.insert("45.76.50.103:19001");
       full_addrs.insert("45.32.42.83:19001");
-   
+   	full_addrs.insert("45.32.14.87:19001");
     }
     else
     {
