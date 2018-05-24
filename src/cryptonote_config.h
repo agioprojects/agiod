@@ -65,8 +65,8 @@
 #define CRYPTONOTE_PROJECT_BLOCK_REWARD                 0.05 // Percentage of the total block reward.
 // Initial dev fee - drops down rapidly and averages to CRYPTONOTE_PROJECT_BLOCK_REWARD over time
 #define CRYPTONOTE_PROJECT_INITIAL_MULTIPLIER           0.06
-#define CRYPTONOTE_PROJECT_BLOCK_ADDRESS                ""
-#define CRYPTONOTE_PROJECT_BLOCK_VIEWKEY                ""
+#define CRYPTONOTE_PROJECT_BLOCK_ADDRESS                "Xagio8EQBFUDuP8gNRFoVbH5FTcxZT7UC6dPVUZK7JucB9W7sC66A4QJp2qCP6FcJQVVHZ6KZHuRrBCnpVtx2hANBcF8pG998U7"
+#define CRYPTONOTE_PROJECT_BLOCK_VIEWKEY                "3ea37b8d3088bb54c008a7738b77b464cac078f0bfe31487e1b0252495239309"
 #define CRYPTONOTE_REWARD_BLOCKS_WINDOW                 60
 #define CRYPTONOTE_REWARD_BLOCKS_WINDOW                 60
 #define CRYPTONOTE_BLOCK_GRANTED_FULL_REWARD_ZONE       240 * 1024    // 240kB
@@ -168,7 +168,7 @@ namespace config
   boost::uuids::uuid const NETWORK_ID = { {
       0x4c, 0xf1, 0x33, 0x22, 0xc3, 0x3e, 0x1d, 0x12, 0xc4, 0x1b, 0x1c, 0x22, 0x1c, 0x2a, 0xad, 0x1f
     } }; // Bender's nightmare
-  std::string const GENESIS_TX = "";
+  std::string const GENESIS_TX = "013c01ff00018094ebdc0302210bc5b3ebd0ea98afb7e6b6dbc84d37f645bf90857901b8a3d0145640d896e221015e3d69f0f3ef8cfa12fb80cc9739681822cc8b80aec39ab2cf140167a2719e1b";
   uint32_t const GENESIS_NONCE = 10000;
 
   namespace testnet
@@ -182,7 +182,7 @@ namespace config
     boost::uuids::uuid const NETWORK_ID = { {
         0x12, 0x04, 0x11 ,0xa2, 0x02, 0x52 ,0xac, 0x15, 0xbc, 0xf9, 0xa2, 0x2f, 0x77, 0x30, 0x66, 0x65
       } }; // Bender's daydream
-    std::string const GENESIS_TX = "";
+    std::string const GENESIS_TX = "013c01ff00018094ebdc0302210bc5b3ebd0ea98afb7e6b6dbc84d37f645bf90857901b8a3d0145640d896e221015e3d69f0f3ef8cfa12fb80cc9739681822cc8b80aec39ab2cf140167a2719e1b";
     uint32_t const GENESIS_NONCE = 10001;
   }
 }
